@@ -1,7 +1,4 @@
-
-#################################### ENGLISH ####################################
-
-# Google Takeout Date Fixer
+# Google Takeout Date Fixer # ENGLISH
 
 This PowerShell script updates the creation dates of your photos and videos exported from Google Takeout. 
 It reads metadata from Google JSON files and sets the EXIF/Media dates correctly. It also cleans up the JSON files after use.
@@ -32,8 +29,7 @@ It reads metadata from Google JSON files and sets the EXIF/Media dates correctly
 
 
 
-#################################### POLSKI ####################################
-# Google Takeout Date Fixer
+# Google Takeout Date Fixer # POLISH
 
 -Ten skrypt programu PowerShell aktualizuje daty utworzenia zdjęć i filmów wyeksportowanych z Google Takeout.
 Odczytuje metadane z plików Google JSON i poprawnie ustawia daty EXIF/Media. Czyści również pliki JSON po użyciu.

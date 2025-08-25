@@ -38,7 +38,7 @@ Odczytuje metadane z plików Google JSON i poprawnie ustawia daty EXIF/Media. Cz
 # Wymagania
 - Windows 10/11
 - [ExifTool](https://exiftool.org/) pobrany i umieszczony w `C:\Tools\exiftool.exe`.
-Po pobraniu zmień nazwę pliku `exiftool.exe` na `exiftool(-K).exe`
+Po pobraniu zmień nazwę pliku  `exiftool(-K).exe` na `exiftool.exe`
 - PowerShell 5+ (dołączony do systemu Windows)
 
 ## Sposób użycia

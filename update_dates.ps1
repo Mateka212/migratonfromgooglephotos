@@ -1,4 +1,9 @@
-$baseDir = "H:\Google Photos\takeout-20250822T055917Z-1-002\Takeout"
+$baseDir = Read-Host "Enter the full path to your extracted Google Takeout folder (e.g., H:\Google Photos\Takeout)"
+if (-not (Test-Path $baseDir)) {
+    Write-Host "Folder not found! Make sure the Takeout archive is extracted and the path is correct."
+    exit
+}
+
 $extensions = "*.heic","*.jpg","*.jpeg","*.png","*.mp4","*.mov","*.avi"
 
 $totalFiles = 0

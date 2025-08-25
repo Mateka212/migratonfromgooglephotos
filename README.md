@@ -53,11 +53,16 @@ Po pobraniu zmień nazwę pliku `exiftool.exe` na `exiftool(-K).exe`
 - Aktualizuje daty EXIF/Media dla zdjęć i filmów.
 - Usuwa pliki JSON po przetworzeniu.
 - Rejestruje i pokazuje wszystkie działania i wyświetla podsumowanie na końcu.
+np.
+ Sprawdzonych plików: 10270
+Uzupełnionych dat: 802
+Usuniętych JSON: 7363
+
 
 ## Uwagi
 - Niektóre zdjęcia wykonane w trybie seryjnym mogą mieć identyczne znaczniki czasu (ograniczenie Google Takeout - tak jest w .json).
 - Skrypt przetwarza pliki rekurencyjnie we wszystkich podfolderach wskazanym przez uzytkownika miejscu.
-
+- Czasem brakuje dat oraz .json skrypt daje informacje że nie ma wogole - wtedy nic nie mozemy zrobić zdjęcia muszą tak zostać albo zmienić trzeba ręcznie 
 
 
 
